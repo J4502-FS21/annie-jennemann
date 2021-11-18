@@ -230,11 +230,6 @@ a:hover {
     border: none;
   }
 
-  #menu_trigger:hover {
-    background-color: #FF8A80;
-
-  }
-
   #menu_nav {
     display: none;
   }
