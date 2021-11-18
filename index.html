@@ -2,42 +2,55 @@
 
 <html lang="en">
 <head>
-  <title> Annie's website </title>
+  <title>About Annie</title>
   <meta charset="utf-8">
-  <meta name="description" content="Annie Jennemann's website for J7502.">
+  <meta name="description" content="Annie Jennemann's portfolio.">
   <meta name="author" content="Annie Jennemann">
-  <meta name="keywords" content="Annie Jennemann, 7502"/>
+  <meta name="keywords" content="Annie Jennemann, portfolio"/>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link href="https://fonts.googleapis.com/css2?family=Crimson+Text:ital@0;1&family=Lato:wght@900&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="myStyles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@700&family=Playfair+Display&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-<h2>Links</h2>
+<div id="header">
+  <div class="fade-in">
+    <h1>Annie Jennemann</h1>
+    <h3>Graphics and data journalist</h3>
+  </div>
 
-<nav>
-  <ul id="menu_nav">
-      <li><a href="https://shortwave.coffee/" target="_blank">Shortwave Coffee</a></li>
-      <li><a href="secondpage.html">Annie's second page</a></li>
-      <li><a href="old-index.html">My old index</a></li>
-      <li><a href="http://anniejennemann.com/work/">Link to Annie's portfolio</a></li>
-  </ul>
-  <button id="menu_trigger">☰</button>
-</nav>
+  <div class="navbar">
+  <nav>
+    <ul id="menu_nav">
+        <li><a href="index.html">About me</a></li>
+        <li><a href="portfolio.html">Graphics</a></li>
+        <li><a href="resume.html">Resume</a></li>
+    </ul>
+    <button id="menu_trigger">☰</button>
+  </nav>
+</div>
+</div>
 
-<h1>Annie Jennemann's website</h1>
-<p>You can reach me at <a href="mailto:ajj69k@mail.missouri.edu">ajj69k@mail.missouri.edu</a></p>
+<div class="line"></div>
 
-<a href="mailto:ajj69k@mail.missouri.edu">
-  <img src="myphoto.jpeg" alt="Annie Jennemann" />
-</a>
+<h2>Welcome!</h2>
 
-<section>
-  <h2>Joke</h2>
-  <p>I saw a journalist looking through some ice cream cones.</p>
-  <p>They were looking for the scoop.</p>
-</section>
+<div id="pictextholder">
+
+  <img class="me" src="images/me-01.jpg" alt="Annie Jennemann holding six mini gourds." />
+
+  <div class="about">
+    <p>Hello! I am a first year graduate student at the University of Missouri School of Journalism emphasizing in data journalism. I am passionate about analyzing data and designing graphics.</p>
+    <p>I currently work as a graphics editor at the Columbia Missourian for my graduate teaching assistantship. I teach students in the information graphics class how to clean data, create graphics using Adobe Illustrator, Tableau and Datawrapper and edit the graphics for publication.</p>
+    <p>I have a lot of experience working with Adobe Illustrator designing static graphics as well as Tableau, Datawrapper and Flourish Studio. I also have experience with HTML & CSS. I'm currently learning Javascript and D3.js. I also know DB Browser for SQLite and R for data analysis.</p>
+    <p>Outside of the world of graphics, I love spending time with my two cats, Bean and Dany, and riding my bike. And I don't mean to brag, but I'm pretty good at Catan.</p>
+    <p>You can reach me at <a href="mailto:ajj69k@mail.missouri.edu">ajj69k@mail.missouri.edu</a> for questions about any of my work or for freelance work.</p>
+  </div>
+
+</div>
 
 </body>
 
